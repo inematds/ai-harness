@@ -1,0 +1,12 @@
+{
+  "quadro-branco": {
+    "url": "https://github.com/inematds/ai-harness/releases/download/video-v2.0.0/ai-harness-quadro-branco-16x9.mp4",
+    "srt": "https://github.com/inematds/ai-harness/releases/download/video-v2.0.0/ai-harness-quadro-branco-16x9.srt",
+    "duration": 495.02
+  },
+  "profissional": {
+    "url": "https://github.com/inematds/ai-harness/releases/download/video-v2.0.0/ai-harness-profissional-16x9.mp4",
+    "srt": "https://github.com/inematds/ai-harness/releases/download/video-v2.0.0/ai-harness-profissional-16x9.srt",
+    "duration": 495.02
+  }
+}
