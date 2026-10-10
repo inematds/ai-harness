@@ -1,0 +1,1053 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.280
+Artificial intelligence is already in almost every
+
+2
+00:00:02.280 --> 00:00:03.100
+major company.
+
+3
+00:00:03.100 --> 00:00:05.240
+It solves math problems and generates hundreds
+
+4
+00:00:05.240 --> 00:00:06.400
+of millions in revenue.
+
+5
+00:00:06.400 --> 00:00:07.540
+But there’s one detail:
+
+6
+00:00:07.540 --> 00:00:09.620
+the model alone isn’t doing that work.
+
+7
+00:00:09.620 --> 00:00:11.120
+The model is like a brain in
+
+8
+00:00:11.120 --> 00:00:11.600
+a jar.
+
+9
+00:00:11.600 --> 00:00:12.320
+On its own,
+
+10
+00:00:12.320 --> 00:00:13.880
+it can’t speak or act.
+
+11
+00:00:13.880 --> 00:00:15.460
+The real work is done by everything
+
+12
+00:00:15.460 --> 00:00:16.920
+around it, and that has a name:
+
+13
+00:00:16.920 --> 00:00:17.740
+the harness.
+
+14
+00:00:17.740 --> 00:00:18.620
+In this video,
+
+15
+00:00:18.620 --> 00:00:20.020
+I’ll explain what a harness is and
+
+16
+00:00:20.020 --> 00:00:21.080
+its five parts.
+
+17
+00:00:21.080 --> 00:00:23.180
+Let’s start with what you already know:
+
+18
+00:00:23.180 --> 00:00:25.380
+Claude Code and Codex.
+
+19
+00:00:25.680 --> 00:00:27.340
+Neither one is an AI model.
+
+20
+00:00:27.340 --> 00:00:28.440
+They’re both harnesses.
+
+21
+00:00:28.440 --> 00:00:30.840
+Claude Code is Anthropic’s harness for the
+
+22
+00:00:30.840 --> 00:00:32.560
+Claude family, with models like Fable,
+
+23
+00:00:32.560 --> 00:00:34.400
+Opus, Sonnet, and Haiku.
+
+24
+00:00:34.400 --> 00:00:36.820
+Codex is OpenAI’s harness for the GPT
+
+25
+00:00:36.820 --> 00:00:37.300
+family.
+
+26
+00:00:37.300 --> 00:00:38.440
+Both let AI work,
+
+27
+00:00:38.440 --> 00:00:39.220
+not just chat.
+
+28
+00:00:39.220 --> 00:00:40.780
+And here’s something interesting:
+
+29
+00:00:40.780 --> 00:00:42.260
+take the same model and put it
+
+30
+00:00:42.260 --> 00:00:43.220
+in two different harnesses,
+
+31
+00:00:43.220 --> 00:00:44.720
+and the results can change a lot.
+
+32
+00:00:44.720 --> 00:00:46.300
+Even a chat window is a harness,
+
+33
+00:00:46.300 --> 00:00:48.160
+just a simpler one built for conversation.
+
+34
+00:00:48.160 --> 00:00:49.500
+Much of the progress we see in
+
+35
+00:00:49.500 --> 00:00:51.240
+AI comes from better harnesses,
+
+36
+00:00:51.240 --> 00:00:52.360
+not just smarter models.
+
+37
+00:00:52.360 --> 00:00:53.880
+So when you choose an AI tool,
+
+38
+00:00:53.880 --> 00:00:55.040
+you also choose its harness.
+
+39
+00:00:55.040 --> 00:00:56.380
+Now look at the model on its
+
+40
+00:00:56.380 --> 00:00:56.640
+own.
+
+41
+00:00:56.640 --> 00:00:58.480
+A language model is trained to predict
+
+42
+00:00:58.480 --> 00:01:00.600
+text: a piece of text goes in,
+
+43
+00:01:00.600 --> 00:01:02.560
+and a slightly longer piece comes out.
+
+44
+00:01:02.560 --> 00:01:04.840
+You type “the sky is,” and it
+
+45
+00:01:04.840 --> 00:01:06.800
+completes the sentence with “blue,” because it
+
+46
+00:01:06.800 --> 00:01:08.500
+has read that phrase billions of times.
+
+47
+00:01:08.500 --> 00:01:09.340
+On its own,
+
+48
+00:01:09.340 --> 00:01:10.280
+it has four limits.
+
+49
+00:01:10.280 --> 00:01:11.480
+It has no memory:
+
+50
+00:01:11.480 --> 00:01:13.080
+every new chat starts empty.
+
+51
+00:01:13.080 --> 00:01:14.000
+It can’t see:
+
+52
+00:01:14.000 --> 00:01:15.300
+it can’t see your files or your
+
+53
+00:01:15.300 --> 00:01:15.720
+screen.
+
+54
+00:01:15.720 --> 00:01:16.620
+It can’t act:
+
+55
+00:01:16.620 --> 00:01:17.860
+it can only tell you what to
+
+56
+00:01:17.860 --> 00:01:18.140
+do.
+
+57
+00:01:18.140 --> 00:01:19.200
+And it can’t check:
+
+58
+00:01:19.200 --> 00:01:20.720
+it doesn’t know whether the code it
+
+59
+00:01:20.720 --> 00:01:21.320
+wrote works.
+
+60
+00:01:21.320 --> 00:01:22.060
+At its core,
+
+61
+00:01:22.060 --> 00:01:23.600
+the model predicts the next piece of
+
+62
+00:01:23.600 --> 00:01:24.740
+text, over and over.
+
+63
+00:01:24.740 --> 00:01:26.160
+Think of the model as a horse.
+
+64
+00:01:26.160 --> 00:01:27.100
+It has a lot of power,
+
+65
+00:01:27.100 --> 00:01:27.940
+but no control:
+
+66
+00:01:27.940 --> 00:01:29.500
+sometimes it responds brilliantly,
+
+67
+00:01:29.500 --> 00:01:30.660
+sometimes strangely.
+
+68
+00:01:30.660 --> 00:01:32.380
+The harness is the saddle and reins.
+
+69
+00:01:32.380 --> 00:01:33.960
+It directs all that power toward a
+
+70
+00:01:33.960 --> 00:01:34.820
+useful goal.
+
+71
+00:01:34.820 --> 00:01:36.600
+A harness has five parts around the
+
+72
+00:01:36.600 --> 00:01:37.040
+model.
+
+73
+00:01:37.040 --> 00:01:38.560
+Context tells it what you’re doing and
+
+74
+00:01:38.560 --> 00:01:38.980
+why.
+
+75
+00:01:38.980 --> 00:01:40.760
+Memory keeps track of what’s happened.
+
+76
+00:01:40.760 --> 00:01:42.540
+Tools let the model take action.
+
+77
+00:01:42.540 --> 00:01:44.400
+Verification checks whether it did the job
+
+78
+00:01:44.400 --> 00:01:44.760
+right.
+
+79
+00:01:44.760 --> 00:01:47.040
+And permissions prevent things you don’t want.
+
+80
+00:01:47.040 --> 00:01:48.720
+Today, a good harness is as valuable
+
+81
+00:01:48.720 --> 00:01:49.500
+as a good model.
+
+82
+00:01:49.500 --> 00:01:51.060
+The first part is context.
+
+83
+00:01:51.060 --> 00:01:52.260
+When a session starts,
+
+84
+00:01:52.260 --> 00:01:53.240
+the model may be smart,
+
+85
+00:01:53.240 --> 00:01:54.780
+but it knows nothing about you.
+
+86
+00:01:54.780 --> 00:01:56.780
+Context answers: what’s the project,
+
+87
+00:01:56.780 --> 00:01:57.880
+how are the files organized,
+
+88
+00:01:57.880 --> 00:01:59.180
+what changed most recently,
+
+89
+00:01:59.180 --> 00:02:00.380
+and what tools does it have?
+
+90
+00:02:00.380 --> 00:02:01.800
+The harness puts all of that at
+
+91
+00:02:01.800 --> 00:02:02.680
+the start of the conversation,
+
+92
+00:02:02.680 --> 00:02:03.600
+behind the scenes,
+
+93
+00:02:03.600 --> 00:02:05.100
+for the model to read first.
+
+94
+00:02:05.100 --> 00:02:06.620
+In Claude Code and Codex,
+
+95
+00:02:06.620 --> 00:02:08.100
+that includes a map of the code,
+
+96
+00:02:08.100 --> 00:02:09.580
+so it can find the right file
+
+97
+00:02:09.580 --> 00:02:10.540
+and ignore the rest,
+
+98
+00:02:10.540 --> 00:02:13.160
+and files like CLAUDE.md and
+
+99
+00:02:13.160 --> 00:02:15.020
+AGENTS.md, with rules such as:
+
+100
+00:02:15.020 --> 00:02:16.400
+use our coding style,
+
+101
+00:02:16.400 --> 00:02:17.680
+don’t touch this folder,
+
+102
+00:02:17.680 --> 00:02:18.740
+always run the tests.
+
+103
+00:02:18.740 --> 00:02:20.560
+The AI reads this every session,
+
+104
+00:02:20.560 --> 00:02:21.480
+and you write it once.
+
+105
+00:02:21.480 --> 00:02:22.900
+The second part is memory.
+
+106
+00:02:22.900 --> 00:02:23.840
+The more you talk,
+
+107
+00:02:23.840 --> 00:02:25.620
+the more the context window fills up.
+
+108
+00:02:25.620 --> 00:02:27.200
+And a full window is a problem:
+
+109
+00:02:27.200 --> 00:02:28.960
+the model gets less capable and starts
+
+110
+00:02:28.960 --> 00:02:30.880
+seeing instructions that contradict each other.
+
+111
+00:02:30.880 --> 00:02:32.420
+The solution is called compaction.
+
+112
+00:02:32.420 --> 00:02:33.860
+The harness keeps what matters:
+
+113
+00:02:33.860 --> 00:02:34.920
+the goal, the plan,
+
+114
+00:02:34.920 --> 00:02:35.840
+and the changed files.
+
+115
+00:02:35.840 --> 00:02:37.080
+It shrinks old steps into a short
+
+116
+00:02:37.080 --> 00:02:37.480
+summary.
+
+117
+00:02:37.480 --> 00:02:38.800
+And it removes failed attempts.
+
+118
+00:02:38.800 --> 00:02:40.260
+That leaves room to keep working in
+
+119
+00:02:40.260 --> 00:02:41.090
+the same direction.
+
+120
+00:02:41.090 --> 00:02:42.840
+Claude Code does this automatically when the
+
+121
+00:02:42.840 --> 00:02:43.880
+window is nearly full.
+
+122
+00:02:43.880 --> 00:02:45.600
+Many harnesses also keep a record of
+
+123
+00:02:45.600 --> 00:02:46.580
+changes to each file,
+
+124
+00:02:46.580 --> 00:02:48.420
+like Git, instead of storing the whole
+
+125
+00:02:48.420 --> 00:02:49.020
+file.
+
+126
+00:02:49.160 --> 00:02:50.220
+The third part is tools.
+
+127
+00:02:50.220 --> 00:02:51.900
+The model only produces text.
+
+128
+00:02:51.900 --> 00:02:53.580
+So the harness watches for a special
+
+129
+00:02:53.580 --> 00:02:54.380
+kind of text:
+
+130
+00:02:54.380 --> 00:02:55.440
+a tool request.
+
+131
+00:02:55.440 --> 00:02:56.920
+This is called tool calling.
+
+132
+00:02:56.920 --> 00:02:58.320
+The model makes a request,
+
+133
+00:02:58.320 --> 00:03:00.520
+the harness carries it out—whether that’s reading
+
+134
+00:03:00.520 --> 00:03:02.200
+a file, searching for files,
+
+135
+00:03:02.200 --> 00:03:03.080
+running a program,
+
+136
+00:03:03.080 --> 00:03:05.060
+or editing a file—and the result goes
+
+137
+00:03:05.060 --> 00:03:05.860
+back to the model.
+
+138
+00:03:05.860 --> 00:03:07.840
+This happens dozens of times a minute.
+
+139
+00:03:07.840 --> 00:03:09.200
+Harnesses have come a long way here.
+
+140
+00:03:09.200 --> 00:03:11.360
+For example, instead of rewriting an entire
+
+141
+00:03:11.360 --> 00:03:13.320
+file, the AI changes only the line
+
+142
+00:03:13.320 --> 00:03:13.980
+it needs to.
+
+143
+00:03:13.980 --> 00:03:16.140
+That means fewer tokens and fewer errors.
+
+144
+00:03:16.140 --> 00:03:18.080
+And each request follows a fixed format,
+
+145
+00:03:18.080 --> 00:03:18.840
+called a schema.
+
+146
+00:03:18.840 --> 00:03:20.900
+The best-known format for connecting other apps
+
+147
+00:03:20.900 --> 00:03:22.060
+is MCP.
+
+148
+00:03:22.060 --> 00:03:23.100
+Anthropic created it,
+
+149
+00:03:23.100 --> 00:03:24.700
+and OpenAI uses it too.
+
+150
+00:03:24.700 --> 00:03:26.180
+You can even ask your AI to
+
+151
+00:03:26.180 --> 00:03:27.620
+create an MCP server.
+
+152
+00:03:27.620 --> 00:03:29.140
+The fourth part is verification:
+
+153
+00:03:29.140 --> 00:03:30.000
+checking the work.
+
+154
+00:03:30.000 --> 00:03:31.400
+Without it, the model looks at the
+
+155
+00:03:31.400 --> 00:03:32.060
+code and says,
+
+156
+00:03:32.060 --> 00:03:33.980
+“Looks good to me.” But it doesn’t
+
+157
+00:03:33.980 --> 00:03:35.160
+know whether the code runs.
+
+158
+00:03:35.160 --> 00:03:37.540
+Remember when ChatGPT said seventeen times three
+
+159
+00:03:37.540 --> 00:03:38.320
+was forty-eight?
+
+160
+00:03:38.320 --> 00:03:39.620
+The solution was to give it a
+
+161
+00:03:39.620 --> 00:03:40.280
+calculator.
+
+162
+00:03:40.280 --> 00:03:41.460
+Code works the same way:
+
+163
+00:03:41.460 --> 00:03:43.040
+the harness runs it and gives the
+
+164
+00:03:43.040 --> 00:03:44.620
+actual result back for the AI to
+
+165
+00:03:44.620 --> 00:03:45.300
+read.
+
+166
+00:03:45.300 --> 00:03:46.160
+That’s what tests are for.
+
+167
+00:03:46.160 --> 00:03:47.660
+They tell you pass or fail,
+
+168
+00:03:47.660 --> 00:03:48.920
+without guessing.
+
+169
+00:03:48.920 --> 00:03:50.500
+Linters find mistakes in the code.
+
+170
+00:03:50.500 --> 00:03:52.500
+And formatters make everything follow the same
+
+171
+00:03:52.500 --> 00:03:53.040
+style.
+
+172
+00:03:53.040 --> 00:03:54.460
+Then there’s the exit code:
+
+173
+00:03:54.460 --> 00:03:55.580
+zero means success;
+
+174
+00:03:55.580 --> 00:03:57.500
+any other number means an error.
+
+175
+00:03:57.500 --> 00:03:59.000
+The fifth part is permissions.
+
+176
+00:03:59.000 --> 00:04:00.900
+The harness checks every action before carrying
+
+177
+00:04:00.900 --> 00:04:01.420
+it out.
+
+178
+00:04:01.420 --> 00:04:02.580
+Editing a file is fine.
+
+179
+00:04:02.580 --> 00:04:03.920
+But deleting files,
+
+180
+00:04:03.920 --> 00:04:05.140
+changing system settings,
+
+181
+00:04:05.140 --> 00:04:06.920
+or sending data to an unfamiliar website
+
+182
+00:04:06.920 --> 00:04:08.540
+requires your approval.
+
+183
+00:04:08.540 --> 00:04:09.520
+A question pops up:
+
+184
+00:04:09.520 --> 00:04:11.460
+“Can I delete the old folder?” And
+
+185
+00:04:11.460 --> 00:04:12.500
+you decide what needs approval.
+
+186
+00:04:12.500 --> 00:04:14.080
+This is handled with hooks,
+
+187
+00:04:14.080 --> 00:04:15.640
+which are rules that run at specific
+
+188
+00:04:15.640 --> 00:04:16.220
+points.
+
+189
+00:04:16.220 --> 00:04:18.480
+For example: run the tests after every
+
+190
+00:04:18.480 --> 00:04:18.820
+edit.
+
+191
+00:04:18.820 --> 00:04:20.720
+Or: never allow this command.
+
+192
+00:04:20.720 --> 00:04:22.680
+There are also checkpoints for undoing changes,
+
+193
+00:04:22.680 --> 00:04:23.720
+and a sandbox:
+
+194
+00:04:23.720 --> 00:04:26.040
+an isolated environment with limits on time,
+
+195
+00:04:26.040 --> 00:04:27.760
+memory, and internet access.
+
+196
+00:04:27.760 --> 00:04:29.280
+If the AI makes a mistake,
+
+197
+00:04:29.280 --> 00:04:30.800
+the damage stays inside.
+
+198
+00:04:30.800 --> 00:04:31.800
+Codex, for example,
+
+199
+00:04:31.800 --> 00:04:33.360
+uses a fresh computer in the cloud
+
+200
+00:04:33.360 --> 00:04:34.520
+for every task.
+
+201
+00:04:34.520 --> 00:04:35.960
+So where does the model fit into
+
+202
+00:04:35.960 --> 00:04:36.400
+all this?
+
+203
+00:04:36.400 --> 00:04:37.920
+It’s the one making decisions.
+
+204
+00:04:37.920 --> 00:04:40.060
+It gets the context and current state,
+
+205
+00:04:40.060 --> 00:04:41.340
+then chooses the next step.
+
+206
+00:04:41.340 --> 00:04:43.260
+Some models think before they answer,
+
+207
+00:04:43.260 --> 00:04:44.960
+and that reasoning is also part of
+
+208
+00:04:44.960 --> 00:04:45.400
+the harness.
+
+209
+00:04:45.400 --> 00:04:46.440
+Here’s a simple trick:
+
+210
+00:04:46.440 --> 00:04:48.000
+the model writes down an idea,
+
+211
+00:04:48.000 --> 00:04:49.340
+and the harness gives it back with
+
+212
+00:04:49.340 --> 00:04:51.280
+the word “but” at the end.
+
+213
+00:04:51.280 --> 00:04:52.800
+That forces the model to look for
+
+214
+00:04:52.800 --> 00:04:54.880
+exceptions and review what it said.
+
+215
+00:04:54.880 --> 00:04:56.760
+Then the harness organizes the output,
+
+216
+00:04:56.760 --> 00:04:58.060
+which might be more thinking,
+
+217
+00:04:58.060 --> 00:04:58.980
+a tool request,
+
+218
+00:04:58.980 --> 00:04:59.940
+or a message for you.
+
+219
+00:04:59.940 --> 00:05:01.660
+The harness doesn’t make the model smarter.
+
+220
+00:05:01.660 --> 00:05:03.060
+It makes the model more useful.
+
+221
+00:05:03.060 --> 00:05:03.900
+Put it all together,
+
+222
+00:05:03.900 --> 00:05:05.000
+and you get the agent loop.
+
+223
+00:05:05.000 --> 00:05:06.620
+First, it thinks and decides what to
+
+224
+00:05:06.620 --> 00:05:07.060
+do next.
+
+225
+00:05:07.060 --> 00:05:08.960
+Then it acts by requesting a tool.
+
+226
+00:05:08.960 --> 00:05:10.200
+Permissions check whether it’s allowed.
+
+227
+00:05:10.200 --> 00:05:11.060
+The action runs,
+
+228
+00:05:11.060 --> 00:05:12.220
+ideally in a sandbox.
+
+229
+00:05:12.220 --> 00:05:13.580
+The result is trimmed down to keep
+
+230
+00:05:13.580 --> 00:05:14.540
+only what’s useful.
+
+231
+00:05:14.540 --> 00:05:16.440
+Then the agent reads what happened and
+
+232
+00:05:16.440 --> 00:05:16.780
+why.
+
+233
+00:05:16.780 --> 00:05:17.780
+And it thinks again.
+
+234
+00:05:17.780 --> 00:05:19.400
+This loop repeats until the goal is
+
+235
+00:05:19.400 --> 00:05:19.680
+met.
+
+236
+00:05:19.680 --> 00:05:20.300
+At the end,
+
+237
+00:05:20.300 --> 00:05:21.540
+the agent tells you what changed.
+
+238
+00:05:21.540 --> 00:05:22.400
+It’s called ReAct,
+
+239
+00:05:22.400 --> 00:05:24.060
+from “reason” and “act,” and it’s behind
+
+240
+00:05:24.060 --> 00:05:25.080
+most agents today.
+
+241
+00:05:25.080 --> 00:05:25.980
+So what’s next?
+
+242
+00:05:25.980 --> 00:05:27.960
+First, MCP in more and more apps,
+
+243
+00:05:27.960 --> 00:05:29.560
+so any AI can connect to them.
+
+244
+00:05:29.560 --> 00:05:31.000
+Second, teams of agents,
+
+245
+00:05:31.000 --> 00:05:32.140
+where one plans,
+
+246
+00:05:32.140 --> 00:05:33.780
+another builds, another reviews,
+
+247
+00:05:33.780 --> 00:05:34.820
+and another tests.
+
+248
+00:05:34.820 --> 00:05:36.900
+Third, running several versions of the same
+
+249
+00:05:36.900 --> 00:05:38.660
+task at once and keeping only the
+
+250
+00:05:38.660 --> 00:05:39.740
+one that passes the tests.
+
+251
+00:05:39.740 --> 00:05:42.080
+And fourth, harnesses that improve themselves:
+
+252
+00:05:42.080 --> 00:05:44.380
+they look at past mistakes and create
+
+253
+00:05:44.380 --> 00:05:46.780
+better rules, catching failures earlier and with
+
+254
+00:05:46.780 --> 00:05:47.580
+less work from people.
+
+255
+00:05:47.580 --> 00:05:48.700
+And the best part:
+
+256
+00:05:48.700 --> 00:05:50.260
+a harness is software.
+
+257
+00:05:50.260 --> 00:05:51.240
+Anyone
+
+258
+00:05:51.240 --> 00:05:51.860
+can contribute.
+
+259
+00:05:51.860 --> 00:05:53.520
+If you want to learn to use
+
+260
+00:05:53.520 --> 00:05:54.380
+Claude Code, Codex,
+
+261
+00:05:54.380 --> 00:05:55.120
+and agents in practice,
+
+262
+00:05:55.120 --> 00:05:56.947
+the projects and courses are free at
+
+263
+00:05:56.947 --> 00:05:57.720
+INEMA dot club.
