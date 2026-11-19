@@ -11,4 +11,4 @@ O modelo sozinho é um cérebro num pote. Quem faz o trabalho no Claude Code e n
 - `roteiro/pt.json`: fala e cenas
 - `scripts/publica.py`: publica o vídeo (release + player)
 
-Fonte: vídeo de Nick Saraev no YouTube. Conteúdo aberto e gratuito do [INEMA.CLUB](https://inema.club).
+Conteúdo aberto e gratuito do [INEMA.CLUB](https://inema.club).

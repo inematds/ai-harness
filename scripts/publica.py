@@ -62,8 +62,7 @@ def main():
     if subprocess.run(['gh', 'release', 'view', TAG, '--repo', GH], capture_output=True).returncode:
         notes = stage / 'RELEASE.md'
         notes.write_text(f'{TITLE} — vídeo com avatar e voz do Nei, telas refeitas em português e legendas. Duas versões: quadro branco e telas profissionais.\n\n'
-                         f'Assistir: {PAGES}videos/\n\nProdução: https://inematds.github.io/explicavideos/guia/ (Explicavideos v2)\n\n'
-                         'Fonte: vídeo de Nick Saraev no YouTube.')
+                         f'Assistir: {PAGES}videos/\n\nProdução: https://inematds.github.io/explicavideos/guia/ (Explicavideos v2)')
         sh('gh', 'release', 'create', TAG, '--repo', GH, '--draft', '--title', f'{TITLE} (vídeo v2)', '--notes-file', str(notes))
     have = {a['name']: a['size'] for a in json.loads(sh('gh', 'release', 'view', TAG, '--repo', GH, '--json', 'assets'))['assets']}
     for f in assets:
@@ -81,7 +80,7 @@ summary{{cursor:pointer;color:#FFC300;margin-top:8px}}button{{display:block;back
 <h1>{H1}</h1>
 <p class="lead">{html.escape(LEAD)}</p>
 {"".join(cards)}
-<footer>Fonte: vídeo de Nick Saraev no YouTube. Telas refeitas em português e produzidas com o <a href="https://inematds.github.io/explicavideos/guia/">Explicavideos v2</a>. Conteúdo aberto e gratuito do <a href="https://inema.club">INEMA.CLUB</a>.</footer></main>
+<footer>Telas refeitas em português e produzidas com o <a href="https://inematds.github.io/explicavideos/guia/">Explicavideos v2</a>. Conteúdo aberto e gratuito do <a href="https://inema.club">INEMA.CLUB</a>.</footer></main>
 <script>document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{{const v=b.closest('.card').querySelector('video');v.currentTime=Number(b.dataset.time);v.play();}}));</script></body></html>
 '''
     (folder / 'index.html').write_text(page)
